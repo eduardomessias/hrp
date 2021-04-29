@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Action from '../components/action'
+import Timeline from '../components/timeline'
 
 export default function Home() {
     return <>
@@ -19,7 +20,7 @@ export default function Home() {
                     <Action component="person" route="people" type="create" />
                 </div>
                 <div className={styles.right}>
-                    Right
+                    <Timeline></Timeline>
                 </div>
                 <div className={styles.footer}>
                     Footer

@@ -19,13 +19,17 @@
 }
 
 .right {
-    background-color: #CAE4FC;
+    /* background-color: #CAE4FC; */
+    background-color: #232931;
+    color: aliceblue;
 
     grid-column: 3 / 4;
+    overflow-y: auto;
 }
 
 .main {
-    background-color: #F4E4CA;
+    /* background-color: #F4E4CA; */
+    background-color: #232931;
 
     grid-column: 2 / 3;
 

@@ -1,0 +1,46 @@
+ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+ul.rb > li {
+  list-style: none;
+  margin: auto;
+  margin-left: 2em;
+  min-height: 50px;
+  /* border-left: 1px dashed #fff; */
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+ul.rb > li::last-child {
+  border-left: 0;
+}
+ul.rb > li::before {
+  position: absolute;
+  left: -13px;
+  top: -5px;
+  content: " ";
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: #50d890;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+ul.rb > li:hover::before {
+  border-color: #232931;
+  transition: all 500ms ease-in-out;
+}
+
+ul.rb > li .timestamp {
+  color: #50d890;
+  position: relative;
+  width: 100px;
+  font-size: 12px;
+}
+
+.itemtitle {
+  color: #fff;
+}
