@@ -20,7 +20,7 @@ export default function Home() {
                     <Action component="person" route="people" type="create" />
                 </div>
                 <div className={styles.right}>
-                    <Timeline></Timeline>
+                    <Timeline />
                 </div>
                 <div className={styles.footer}>
                     Footer

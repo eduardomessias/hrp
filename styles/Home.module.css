@@ -19,7 +19,6 @@
 }
 
 .right {
-    /* background-color: #CAE4FC; */
     background-color: #232931;
     color: aliceblue;
 
@@ -28,8 +27,8 @@
 }
 
 .main {
-    /* background-color: #F4E4CA; */
     background-color: #232931;
+    color: aliceblue;
 
     grid-column: 2 / 3;
 
