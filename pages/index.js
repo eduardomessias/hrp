@@ -4,7 +4,8 @@ import Action from '../components/action'
 import Timeline from '../components/timeline'
 
 export default function Home() {
-    return <>
+    return (
+        <>
             <Head>
                 <title>Home resources planning</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -27,4 +28,5 @@ export default function Home() {
                 </div>
             </div>
         </>
+    )
 }

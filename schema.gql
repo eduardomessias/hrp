@@ -1,7 +1,0 @@
-person {
-    email: String!
-}
-
-type Query {
-    allPeople: [person!]
-}
