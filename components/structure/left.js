@@ -1,3 +1,5 @@
+// components/structure/left.js
+
 import styles from '../styles/left.module.css'
 
 const Left = ({children}) =>

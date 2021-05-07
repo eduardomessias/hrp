@@ -1,3 +1,5 @@
+// components/structure/right.js
+
 import styles from '../styles/right.module.css'
 
 const Right = ({children}) =>

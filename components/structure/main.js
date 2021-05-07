@@ -1,3 +1,5 @@
+// components/structure/main.js
+
 import styles from '../styles/main.module.css'
 
 const Main = ({children}) =>
