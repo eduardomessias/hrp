@@ -1,3 +1,5 @@
+// components/structure/container.js
+
 import styles from '../styles/container.module.css'
 
 const Container = ({ children }) => 
