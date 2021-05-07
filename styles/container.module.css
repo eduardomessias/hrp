@@ -1,0 +1,6 @@
+.container {
+    display: grid;
+    grid-template: auto 1fr auto / minmax(64px, auto) 1fr minmax(150px, auto);
+
+    height: 100vh;
+}

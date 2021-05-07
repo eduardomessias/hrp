@@ -1,32 +1,34 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Action from '../components/action'
 import Timeline from '../components/timeline'
 
+import Layout from '../components/structure/layout'
+import Container from '../components/structure/container'
+import Header from '../components/structure/header'
+import Left from '../components/structure/left'
+import Right from '../components/structure/right'
+import Main from '../components/structure/main'
+import Footer from '../components/structure/footer'
+
 export default function Home() {
     return (
-        <>
-            <Head>
-                <title>Home resources planning</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <div className={styles.container}>
-                <div className={styles.header}>
+        <Layout>
+            <Container>
+                <Header>
                     Header
-                </div>
-                <div className={styles.left}>
+                </Header>
+                <Left>
                     Left
-                </div>
-                <div className={styles.main}>
+                </Left>
+                <Main>
                     <Action component="person" route="people" type="create" />
-                </div>
-                <div className={styles.right}>
+                </Main>
+                <Right>
                     <Timeline />
-                </div>
-                <div className={styles.footer}>
+                </Right>
+                <Footer>
                     Footer
-                </div>
-            </div>
-        </>
+                </Footer>
+            </Container>
+        </Layout>
     )
 }
