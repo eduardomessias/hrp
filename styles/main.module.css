@@ -1,0 +1,10 @@
+.main {
+    background-color: #232931;
+    color: aliceblue;
+
+    grid-column: 2 / 3;
+
+    /* display: grid; */
+    /* place-items: center; */
+}
+
