@@ -1,4 +1,4 @@
-// components/structure/footer.js
+//components/structure/footer.js
 
 import styles from '../styles/footer.module.css'
 

@@ -1,4 +1,4 @@
-// components/structure/main.js
+//components/structure/main.js
 
 import styles from '../styles/main.module.css'
 
