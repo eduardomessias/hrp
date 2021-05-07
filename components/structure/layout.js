@@ -1,3 +1,4 @@
+// Issue #4 - Structure
 // components/structure/layout.js
 
 import Head from 'next/head'
