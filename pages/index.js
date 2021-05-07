@@ -1,12 +1,13 @@
 import Action from '../components/action'
 import Timeline from '../components/timeline'
-import Layout from '../components/layout'
-import Container from '../components/container'
-import Header from '../components/header'
-import Left from '../components/left'
-import Right from '../components/right'
-import Main from '../components/main'
-import Footer from '../components/footer'
+
+import Layout from '../components/structure/layout'
+import Container from '../components/structure/container'
+import Header from '../components/structure/header'
+import Left from '../components/structure/left'
+import Right from '../components/structure/right'
+import Main from '../components/structure/main'
+import Footer from '../components/structure/footer'
 
 export default function Home() {
     return (
