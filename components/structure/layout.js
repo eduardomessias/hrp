@@ -1,4 +1,4 @@
-// components/structure/layout.js
+//components/structure/layout.js
 
 import Head from 'next/head'
 

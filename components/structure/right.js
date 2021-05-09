@@ -1,4 +1,4 @@
-// components/structure/right.js
+//components/structure/right.js
 
 import styles from '../styles/right.module.css'
 

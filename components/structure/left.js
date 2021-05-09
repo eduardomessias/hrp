@@ -1,4 +1,4 @@
-// components/structure/left.js
+//components/structure/left.js
 
 import styles from '../styles/left.module.css'
 
