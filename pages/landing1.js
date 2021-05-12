@@ -1,4 +1,5 @@
 import styles from '../styles/landing.module.css'
+import PrimaryButton from '../components/structure/primaryButton.js'
 
 import Image from 'next/image'
 
@@ -12,19 +13,19 @@ const Landing1 = ({children}) =>
         }
     `}</style>
     
-    <section className={styles.svgBackgroundGreen}>
+    <section>
         <div className="py-8">
             <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
 
                 <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-                    <p className="text-yellow-300 uppercase tracking-loose">HRP v0.1</p>
+                    <p className="text-indigo-300 uppercase tracking-loose">HRP v0.1</p>
                     <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Home Resources Planning</p>
                     <p className="text-sm md:text-base mb-4">
                         Here’s your guide to the tech fest 2021 process. Go through all the steps to know the exact process of the fest.
                     </p>
-                    <a href="#" className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+                    <PrimaryButton href="#">
                         Explore Now
-                    </a>
+                    </PrimaryButton>
                 </div>
 
                 <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
