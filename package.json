@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "cookie": "^0.4.1",
     "faunadb": "^4.2.0",
     "graphql-request": "^3.4.0",
