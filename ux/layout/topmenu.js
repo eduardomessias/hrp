@@ -38,7 +38,7 @@ const TopMenu = ({transparent}) =>
                         <button className={(transparent ? "bg-white text-gray-800 active:bg-gray-100" : "bg-pink-500 text-white active:bg-pink-600") + " text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"} type="button">
                             <i className="fas fa-arrow-alt-circle-down"></i>
                             {" "}
-                            <span>Download</span>
+                            <span>Install</span>
                         </button>
                     </MenuItem>
                 </Menu>
