@@ -1,8 +1,8 @@
-// ux/layout/base.js
+// components/layout.js
 
 import Head from 'next/head'
 
-const Base = ({ title, children }) =>
+const Layout = ({ title, children }) =>
     <>
         <Head>
             <title>{title}</title>
@@ -11,4 +11,4 @@ const Base = ({ title, children }) =>
         <main>{children}</main>
     </>
 
-export default Base
+export default Layout

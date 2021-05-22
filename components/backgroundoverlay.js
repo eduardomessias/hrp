@@ -1,4 +1,4 @@
-// ux/components/landing/backgroundoverlay.js
+// components/backgroundoverlay.js
 
 const BackgroundOverlay = () =>
     <span className="w-full h-full absolute opacity-50 bg-black"></span>
