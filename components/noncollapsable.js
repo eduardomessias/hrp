@@ -1,4 +1,4 @@
-// ux/components/navbar/noncollapsable.js
+// components/noncollapsable.js
 
 const NonCollapsable = ({children}) =>
     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">

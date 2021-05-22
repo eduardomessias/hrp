@@ -1,4 +1,4 @@
-// ux/components/menuitem.js
+// components/menuitem.js
 
 const MenuItem = ({children}) =>
     <li className="flex items-center">

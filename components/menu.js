@@ -1,4 +1,4 @@
-// ux/components/navbar/menu.js
+// components/menu.js
 
 const Menu = ({className, children}) =>
     <ul className={"flex flex-col lg:flex-row list-none " + (className)}>

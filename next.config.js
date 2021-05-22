@@ -4,9 +4,8 @@ const runtimeCaching = require('next-pwa/cache')
 module.exports = withPWA({
     pwa: {
         dest: 'public',
-        runtimeCaching
-    },
-    future: {
-        webpack5: true,
+        register: 'true',
+        skipWaiting: 'true',
+        runtimeCaching,
     }
 })

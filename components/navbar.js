@@ -1,18 +1,18 @@
-// ux/components/layout/topmenu.js
+// components/navbar.js
 
-import NavBar from '../components/navbar/nav.js'
-import Container from '../components/navbar/container.js'
-import NonCollapsable from '../components/navbar/noncollapsable.js'
-import Collapsable from '../components/navbar/collapsable.js'
-import Hamburger from '../components/navbar/hamburger.js'
-import Brand from '../components/navbar/brand.js'
-import Menu from '../components/navbar/menu.js'
-import MenuItem from '../components/navbar/menuitem.js'
-import Anchor from '../components/navbar/anchor.js'
+import Nav from './nav.js'
+import Container from './container.js'
+import NonCollapsable from './noncollapsable.js'
+import Collapsable from './collapsable.js'
+import Hamburger from './hamburger.js'
+import Brand from './brand.js'
+import Menu from './menu.js'
+import MenuItem from './menuitem.js'
+import Anchor from './anchor.js'
 
 
-const TopMenu = ({transparent}) =>
-    <NavBar transparent={transparent}>
+const NavBar = ({transparent}) =>
+    <Nav transparent={transparent}>
         <Container>
             <NonCollapsable>
                 <Brand name="Home resources planning" transparent={transparent} />
@@ -44,6 +44,6 @@ const TopMenu = ({transparent}) =>
                 </Menu>
             </Collapsable>
         </Container>
-    </NavBar>
+    </Nav>
 
-export default TopMenu
+export default NavBar

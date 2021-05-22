@@ -1,6 +1,6 @@
-// ux/components/landing/cover.js
+// components/cover.js
 
-import styles from '../../../styles/cover.module.css'
+import styles from '../styles/cover.module.css'
 
 const Cover = ({children}) =>
     <div className={"absolute top-0 w-full h-full bg-center bg-cover " + styles.landingCover}>
