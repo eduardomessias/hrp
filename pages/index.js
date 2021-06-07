@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import Layout from '../components/layout.js'
 import NavBar from '../components/navbar.js'
 import Hero from '../components/hero.js'
