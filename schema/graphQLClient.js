@@ -11,5 +11,5 @@ export const graphQLClient = (token) => {
         headers: {
             authorization: `Bearer ${secret}`
         }
-    }
+    })
 }
