@@ -1,7 +1,7 @@
 // pages/welcome.js
 
 import Image from 'next/image'
-import NotifyMe from '../components/notifyme.js'
+import FormEarlyAdopter from '../components/early-adopter'
 
 const Welcome = () =>
     <section className="text-gray-600 body-font">
@@ -10,7 +10,7 @@ const Welcome = () =>
             <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Home Resources Planning</h1>
                 <p className="mb-8 leading-relaxed">Welcome to the first HRP web platform. A system designed to help you plan and manage your personal resources.</p>
-                <NotifyMe />
+                <FormEarlyAdopter />
                 <p className="text-sm mt-2 text-gray-500 mb-8 w-full">HRP is free and open-source.</p>
                 <div className="flex">
                     <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
