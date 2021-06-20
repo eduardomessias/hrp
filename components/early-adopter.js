@@ -17,13 +17,12 @@ const FormEarlyAdopter = () => {
     }
 
     return (
-        <form name="form-early-adopter" onSubmit={registerEarlyAdopter}>
-            <div class="flex w-full justify-center items-end">
-                <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
-                    <label htmlFor="email" className="leading-7 text-sm text-gray-600">Sign up to the waiting list with your email address</label>
-                    <input type="text" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" spellCheck="false" data-ms-editor="true" autoFocus />
-                </div>
-                <button type="submit" className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Notify me</button>
+        <form name="form-early-adopter" onSubmit={registerEarlyAdopter} className="w-full max-w-sm">
+            <div className="flex items-center border-b border-teal-500 py-2">
+                <input id="email" name="email" className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="jane.doe@email.com" aria-label="Email" />
+                <button className="flex-shrink-0 bg-green-500 hover:bg-green-700 border-green-500 hover:border-green-700 text-sm border-4 text-white py-1 px-2 rounded" type="submit">
+                    Notify me!
+                </button>
             </div>
         </form>
     )
