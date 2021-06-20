@@ -1,4 +1,5 @@
 type Person {
+    fullName: String!
     email: String!
     earlyAdopter: Boolean!
 }
